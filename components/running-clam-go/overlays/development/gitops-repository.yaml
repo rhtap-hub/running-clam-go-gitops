@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: running-clam-go-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/running-clam-go-gitops
